@@ -47,7 +47,7 @@ export default {
         by{
           id
         }
-        time
+        timeISO
         descendants
         title
         url

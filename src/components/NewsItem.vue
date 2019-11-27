@@ -9,7 +9,7 @@
                 {{story.title}}
             </a>
             <div class="news__details">
-                By <a :href="`https://news.ycombinator.com/user?id=${story.by.id}`" target="_blank" class="news__link">{{story.by.id}}</a> 3 hours ago | 
+                By <a :href="`https://news.ycombinator.com/user?id=${story.by.id}`" target="_blank" class="news__link">{{story.by.id}}</a> <timeago :datetime="story.timeISO"></timeago> | 
                 <a :href="`https://news.ycombinator.com/item?id=${story.id}`" target="_blank" class="news__link">{{story.descendants}} comments</a>
             </div>
         </div>
