@@ -1,5 +1,8 @@
 # app
 
+### Live version
+[https://myhackernews.firebaseapp.com/](https://myhackernews.firebaseapp.com/).
+
 ## Project setup
 ```
 npm install
